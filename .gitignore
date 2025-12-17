@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # Helix config files
-./helix
+*.helix/
 
 #Personal credentials
 cred.py
