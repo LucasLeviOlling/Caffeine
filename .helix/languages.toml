@@ -1,0 +1,9 @@
+[[language]]
+name = "python"
+language-servers = ["pylsp"]
+
+[[language-server.pylsp.config.pylsp.plugins.jedi]]
+extra_paths = [
+  ".venv/lib/python3.13/site-packages"
+]
+
